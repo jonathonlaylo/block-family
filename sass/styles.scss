@@ -1,36 +1,45 @@
 // Resets, Clearfix, etc
 
 // Variables
- 
-// Media Query Ranges 
- 
+
+// Media Query Ranges
+
 // Mixins
 
 // Styles
-body{
-  background-color: orange;
-  text-align: center;
-  color: #EEE;
+
+// body{
+//   background-color: orange;
+//   text-align: center;
+//   color: #EEE;
+// }
+
+$dark-color : #333333;
+
+body {
+  background: $dark-color;
 }
- 
+
 h1, h2, h3, h4{
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
- 
+
 h1{
   padding: 20px;
+  color: #F1F1F1;
+
 }
- 
+
 h2{
- 
+
 }
- 
- 
+
+
 .block_family{
   max-width:350px;
   margin:auto;
 }
- 
+
 .block_family li{
   background-color: #222;
   margin-bottom: 20px;
