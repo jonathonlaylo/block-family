@@ -1,8 +1,21 @@
 // Resets, Clearfix, etc
-
+  @import "partials/_clearfix";
+  @import "partials/_reset";
 // Variables
-
+  $dark-color : #333333;
+  $light-color : salmon;
+  $bright-color : pink;
+  $padding : 10rem;
 // Media Query Ranges
+  @media screen and (min-width: 300px){
+
+  };
+  @media screen and (min-width: 600px){
+
+  };
+  @media screen and (min-width: 1200px){
+
+  };
 
 // Mixins
 
@@ -11,13 +24,14 @@
 // body{
 //   background-color: orange;
 //   text-align: center;
-//   color: #EEE;
 // }
 
-$dark-color : #333333;
 
 body {
   background: $dark-color;
+  text-align: center;
+  color: #EEE;
+
 }
 
 h1, h2, h3, h4{
